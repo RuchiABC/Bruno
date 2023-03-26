@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- this is the way one should comment -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Womens PG, PG for female, pg in kolkata">
+    <meta name="robots" content="Index, Follow">
+    <title>Sucharita PG</title>
+
+    <!-- This is how we can add external CSS -->
+    <link rel="stylesheet" href="Sucharita.css">
+    <!-- This is how we can add external JS -->
+    <script src="Sucharita.js" > </script>
+</head>
+<body>
+    <h1>Hi user. Welcome to Sucharita's PG.</h1>
+    <p>Paying guest for women </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro fuga pariatur sunt magni corrupti maiores, tempora dolorem sequi earum vero eligendi, nemo libero deserunt, enim necessitatibus dolorum aut obcaecati aliquam.</p>
+    <p>Lorem, ipsum dolor.</p>
+    <!-- Lorem text is used for dummy words. Lorem 23 will create 23 dummy words -->
+    <a href="https://google.com">Go to google</a><br><hr>
+    <!-- This is how we can put any link of other website in our own website -->
+
+    <!-- what is tag? <a>,<h>,<head>,<body> -->   
+     <!--what are attributes? href,src,name, content those are attributes -->
+
+    <a href="https://Youtube.com" target="_blank">Go to youtube</a><br><hr>
+    <!-- Why we are using target attribute? so that youtube will oen in another windoew..not is same window -->
+
+    <a href="/Sucharita01.html" target="_blank"> Go to our another page </a><br>
+    <!-- This is how we can link our internal web page -->
+
+    <img src="sucharita.jpg" alt="Error loading img"><br> <hr>
+     <!-- src attribute used for source of the imag. If image not found in that source then alt text will be shown  -->
+
+     <img src="https://source.unsplash.com/user/erondu/200x200" alt="Error"><hr>
+     <h1>lists</h1>
+     <ol type="i">
+        <li>this is the first item of list </li>
+        <li>this is second item of list </li>
+        <li>this is third item of list<br>
+            <ul value="disc">
+                <li>first item </li>
+                <li>second item </li>
+            </ul>
+            
+        </li>
+     </ol>
+
+     <h1>How to make tabls</h1><hr>
+     <table>
+        <thead>
+            <tr>
+                <th>Name</th> 
+                <th>Employee Role</th> 
+                <th>Employe_ID</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sucharita </td>
+                <td>Java developer</td>
+                <td>1215255 </td>
+            </tr>
+            <tr>
+                <td>Suyash </td>
+                <td>Python developer</td>
+                <td>1215258 </td>
+            </tr>
+            <tr>
+                <td><strong>Bruno</strong> </td>
+                <td><i></e>System Adminstrator</i></td>
+                <td>1215260 </td>
+            </tr>
+        </tbody>
+     </table>
+
+     <h1>How to make forms</h1>
+     <form action="backend.java">
+        <div>
+                 Name:<input type="text" name="myName">
+        </div><br>
+        <label for="roll">Roll</label>  
+        <!-- This is use of lable tag> It is very important -->
+        <div>
+            <input type="text" name="myRole" id="roll">
+         </div><br>
+         <div>
+            Email:<input type="email" name="myEmail">
+         </div><br>
+         <div>
+             Date: <input type="datetime-local" name="myDate">
+            </div><br>
+            <div>
+                Bonus: <input type="number" name="myBonus">
+            </div><br>
+            <div>
+                Are you eligible: <input type="checkbox" name="myEligibility">
+            </div><br>
+            <div>
+                Write about yourself: <textarea name="myText" >
+
+                </textarea>
+            </div><br>
+            <div>
+                Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Other<input type="radio" name="myGender">
+            </div><br>
+            
+            <div>
+               <input type="submit" name="submit Now">
+            </div><br>
+            <div>
+                <input type="reset" name="Reset Now">
+             </div><br>
+     </form>
+
+     <h1>Class and ID</h1>
+     <div id="mainBox" class="redBg blackborder">
+        this is mainbox
+     </div>
+     <span id="mainBox1" class="redBg">
+        this is mainBox1
+        <!-- id can not be same but class name can be same -->
+     </span>
+     <span class="redBg"></span> 
+     <!-- We just have to write span.redBg to create above line -->
+    <span id="redBg"></span>
+    <!-- We just have to write span#redBg to create above line -->
+
+    <div class="Sucharita Bruno Suyash"></div>
+    <!-- We need to write div.Sucharita.Bruno.Suyash to create above line -->
+
+    <!-- Emmet takes div as default -->
+    <div class="abc"></div>
+    <span class="Sumi Sumi1 Sumi2"></span><span class="Sumi Sumi1 Sumi2"></span><span class="Sumi Sumi1 Sumi2"></span><span class="Sumi Sumi1 Sumi2"></span><span class="Sumi Sumi1 Sumi2"></span><span class="Sumi Sumi1 Sumi2"></span><span class="Sumi Sumi1 Sumi2"></span><span class="Sumi Sumi1 Sumi2"></span><span class="Sumi Sumi1 Sumi2"></span>
+    <!-- We can write span.Sumi.Sumi1.Sumi2*9 to create above 9 lines -->
+    <h1>HTML entities</h1>
+    <p>this is me </p>
+    <p> This is space &nbsp;</p>
+    <p> This is tag  &lt;p&gt;</p>
+    
+    <p> This is blank message &#8203;</p>
+    <section>
+        <h1>WWF</h1>
+        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+    </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d117768.76852705296!2d88.3851264!3d22.7180544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1672124995628!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+    <!-- By using Iframe tag we can give location -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.037832985285!2d88.39887071479212!3d22.577688285180187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027677c1c8a03b%3A0xe1bc02832a8f64a4!2sMani%20Square!5e0!3m2!1sen!2sin!4v1672125103634!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    
+        
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+        .item {
+            border: 4px solid blueviolet;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(225, 233, 232);
+
+        }
+
+        .container {
+
+            background-color: aqua;
+            border: 4px solid blue;
+            margin: auto;
+            width: 900px;
+
+        }
+
+        #fruits {
+            float: left;
+            width: 46%;
+
+        }
+
+        #Stationary {
+            float: right;
+            width: 46%;
+
+
+        }
+
+        #Computer {
+            float: left;
+            width: 100%;
+            clear: left;
+            clear: right;
+
+        }
+
+        p,h3{
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="first_para" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, quo
+                eligendi id dignissimos omnis
+                obcaecati ad. Soluta incidunt asperiores quibusdam necessitatibus impedit explicabo perspiciatis iure
+                similique, amet voluptate eaque iste quaerat temporibus sunt dolorum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Repellendus, quae fugit. Ullam quasi voluptate itaque reiciendis porro
+                unde libero ipsam eaque iusto ducimus culpa possimus omnis ad odit architecto quod eveniet, laborum
+                obcaecati explicabo.</p>
+
+
+        </div>
+
+        <div id="Staionary" class="item">
+            <h3>stationary</h3>
+            <p id="second_para" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, quo
+                eligendi id dignissimos omnis
+                obcaecati ad. Soluta incidunt asperiores quibusdam necessitatibus impedit explicabo perspiciatis iure
+                similique, amet voluptate eaque iste quaerat temporibus sunt dolorum. Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Sint rerum quia laboriosam omnis placeat perspiciatis tempora sed vel
+                inventore, quisquam quibusdam veritatis fuga cupiditate distinctio laborum cumque mollitia dicta quam
+                ratione enim optio provident!</p>
+
+
+        </div>
+        <div id="Computer" class="item">
+            <h3>Computer</h3>
+            <p id="third_para" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, quo
+                eligendi id dignissimos omnis
+                obcaecati ad. Soluta incidunt asperiores quibusdam necessitatibus impedit explicabo perspiciatis iure
+                similique, amet voluptate eaque iste quaerat temporibus sunt dolorum.</p>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
